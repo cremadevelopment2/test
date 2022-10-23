@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Rubik-Regular';
+  src: url('../assets/fonts/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('../assets/fonts/OpenSans.eot');
+  /* stylelint-disable-next-line comment-empty-line-before */
+  /* IE9 Compat Modes */
+  src: url('../assets/fonts/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../assets/fonts/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */ url('../assets/fonts/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */ url('../assets/fonts/OpenSans.ttf') format('truetype'), /* Safari, Android, iOS */ url('../assets/fonts/OpenSans.svg#svgFontName') format('svg');
+  /* stylelint-disable-next-line comment-empty-line-before */
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'KaTeX_Math-Italic';
+  src: url('../assets/fonts/KaTeX_Math-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'KaTeX_Math-BoldItalic';
+  src: url('../assets/fonts/KaTeX_Math-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SFCompactDisplay';
+  src: url('../assets/fonts/SFCompactDisplay.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SansSerifBldFLF';
+  src: url('../assets/fonts/SansSerifBldFLF.otf');
+}
+@font-face {
+  font-family: 'DIN-Regular';
+  src: url('../assets/fonts/DIN-Regular.otf');
+}
+@font-face {
+  font-family: 'HelveticaBlk';
+  src: url('../assets/fonts/HelveticaBlk___-.ttf');
+}
+@font-face {
+  font-family: 'HelveticaBlkObl';
+  src: url('../assets/fonts/HelveticaBlkIt.ttf');
+}
+@font-face {
+  font-family: 'HelveticaBlkOblf';
+  src: url('../assets/fonts/HelveticaBlkObl.ttf');
+}
+@font-face {
+  font-family: 'Avenir-Next';
+  src: url('../assets/fonts/Avenir-Next.ttf');
+}
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+td,
+th,
+tbody,
+thead,
+span,
+i,
+a,
+input,
+button,
+textarea {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box !important;
+  font-family: 'PingFangSC-Regular', 'SFCompactDisplay', 'Rubik-Regular', 'opensans', 'arial';
+}
+body {
+  overflow: auto !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-size: inherit;
+}
+ul {
+  list-style: none;
+}
+input,
+button,
+textarea {
+  outline: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.h5-box {
+  display: none;
+  width: 100%;
+  min-height: 100vh;
+}
+.pc-box {
+  display: block;
+  width: 100%;
+}
+.loading-icon {
+  width: 120px;
+  height: 120px;
+}
+.modal-icon-close {
+  width: 12px;
+  height: 12px;
+  fill: #fff;
+}
+.icon {
+  fill: #fff;
+}
+.icon:hover {
+  fill: rgba(255, 255, 255, 0.6);
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+@media screen and (max-width: 750px) {
+  .pc-box {
+    display: none;
+  }
+  .h5-box {
+    display: block;
+  }
+}

@@ -1,0 +1,68 @@
+@sidebar-bg: #02101d;
+@global-back: linear-gradient(155deg, #00081f 0%, #000000 100%);
+@menu-color: rgba(255, 255, 255, 0.5);
+@menu-active-color: #00ffd0;
+@text-color-p: #fff;
+@gradient-back: linear-gradient(270deg, rgba(#00ffb7, 0.5) 0%, rgba(#00bfff, 0.5) 50%, rgba(#ff1a7f, 0.5) 100%);
+
+.gradient-btn-large {
+  width: 100%;
+  height: 56px;
+  // background: linear-gradient(214deg, #59bdad 0%, #6676f5 61%, #9a89f9 76%, #eba7ff 100%);
+
+  background: linear-gradient(268deg, #5fe6d0 0%, #596eff 32%, #6950f5 68%, #ad4ff6 100%);
+  box-shadow: 0px 4px 6px 0px rgba(26, 28, 31, 0.5);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border: 1px solid rgba(#e8e4ff);
+  color: #fff;
+
+  &:hover {
+    // background: linear-gradient(268deg, #74ffe8 0%, #7592ff 39%, #a08fff 74%, #e89aff 100%);
+    background: linear-gradient(268deg, #68f5de 0%, #6c7fff 32%, #7058f8 68%, #ba60ff 100%);
+  }
+
+  &:disabled {
+    border: 2px solid rgba(#e8e4ff, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    cursor: not-allowed;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+.new-gradient-btn-large {
+  width: 100%;
+  height: 56px;
+  background: linear-gradient(180deg, #e4e2fe 0%, #2881f2 100%);
+  box-shadow: 0px 4px 12px 0px rgba(26, 28, 31, 0.5);
+  border-radius: 16px;
+  margin-top: 20px;
+  padding: 1px;
+}
+
+.farm-btn-small {
+  line-height: 1;
+  height: 40px;
+  padding: 1px;
+  background: linear-gradient(180deg, #e4e2fe 0%, #2881f2 100%);
+  border-radius: 6px;
+  border: none;
+
+  div {
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    background: linear-gradient(268deg, #5fe6d0 0%, #597bff 38%, #9380ff 72%, #e590ff 100%);
+
+    &:hover {
+      background: linear-gradient(270deg, #93ffed 0%, #84caff 34%, #a291ff 68%, #efb9ff 100%);
+    }
+  }
+}
